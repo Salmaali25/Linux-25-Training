@@ -1,0 +1,17 @@
+FLAG{D4T4_GH0ST_C4UGHT}
+stage1:
+tar -xf Ghost.tar.gz
+cd Ghost
+cd data_stream
+find -size 0c > stage1_answer.txt
+stage2:
+cd backups
+tar -xf system_tools.tar.gz
+mv diadnostics.sh../tools/
+stage3:
+bash diagnostics.sh 2> stage3_answer.txt
+stage4:
+cd asset_links
+find -xtype l > stage4_answer.txt
+stage5:
+bash system/system check.sh | cat
