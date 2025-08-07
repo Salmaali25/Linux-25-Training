@@ -1,2 +1,1 @@
 ./link_2000.txt
-./asset_links/link_2000.txt
