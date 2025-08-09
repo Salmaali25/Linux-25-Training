@@ -1,3 +1,16 @@
+
+---
+# Task Grading Result
+
+- **Time of grading:** Sunday, August 10, 2025, 02:18 AM
+
+- **Task:** Task-2
+
+- **Result:** CORRECT
+
+
+Logs:
+```bash
 Setting up task environment...
 [SUCCESS] Setup validated. Found solution, and workspace.
 Executing test...
@@ -16,11 +29,4 @@ Executing test...
 [INFO] Final Score: 5 / 6
 [SUCCESS] Task passed!
 [INFO] Commit and push the solution file now.
-
----
-# Task Grading Result
-
-**Time of grading:** Sunday, August 10, 2025, 02:05 AM
-**Task:** Task-2
-**Result:** CORRECT
----
+```
