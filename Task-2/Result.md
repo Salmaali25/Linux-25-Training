@@ -2,7 +2,7 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Sunday, August 10, 2025, 02:18 AM
+- **Time of grading:** Friday, August 15, 2025, 02:41 PM
 
 - **Task:** Task-2
 
@@ -17,7 +17,7 @@ Executing test...
 [INFO] Checking Stage 1...
 [SUCCESS] Stage 1 Answer is correct.
 [INFO] Checking Stage 2...
-[SUCCESS] Stage 2 Tool is correctly extracted and executable.
+[SUCCESS] Stage 2 Tool is correctly extracted.
 [INFO] Checking Stage 3...
 [SUCCESS] Stage 3 Answer is correct.
 [INFO] Checking Stage 4...
@@ -26,7 +26,6 @@ Executing test...
 [SUCCESS] Final Flag is correct in the report.
 [INFO] Checking command documentation in solution...
 -------------------------------------
-[INFO] Final Score: 5 / 6
+[INFO] Final Score: 8 / 8
 [SUCCESS] Task passed!
-[INFO] Commit and push the solution file now.
 ```
