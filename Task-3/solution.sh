@@ -6,7 +6,7 @@ sudo groupadd healers
 sudo usermod -aG warriors hero
 sudo useradd sage
 sudo usermod -aG healers sage
-echo "cyberworld's core" > treasure.txt
+echo "CyberWorld's Core" > treasure.txt
 chmod 000 treasure.txt
 sudo chown hero treasure.txt
 sudo chmod 600 treasure.txt
