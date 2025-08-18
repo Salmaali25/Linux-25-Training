@@ -2,11 +2,11 @@
 ---
 # Task Grading Result
 
-- **Time of grading:** Sunday, August 17, 2025, 12:49 AM
+- **Time of grading:** Monday, August 18, 2025, 12:40 PM
 
 - **Task:** Task-2
 
-- **Result:** CORRECT
+- **Result:** INCORRECT
 
 
 Logs:
@@ -15,7 +15,7 @@ Setting up task environment...
 [SUCCESS] Setup validated. Found solution, and workspace.
 Executing test...
 [INFO] Checking Stage 1...
-[SUCCESS] Stage 1 Answer is correct.
+[ERROR] Stage 1: Answer not found in stage1_answer.txt or incorrect format.
 [INFO] Checking Stage 2...
 [SUCCESS] Stage 2 Tool is correctly extracted.
 [INFO] Checking Stage 3...
@@ -26,6 +26,6 @@ Executing test...
 [SUCCESS] Final Flag is correct in the report.
 [INFO] Checking command documentation in solution...
 -------------------------------------
-[INFO] Final Score: 8 / 8
-[SUCCESS] Task passed!
+[INFO] Final Score: 5 / 8
+[ERROR] Task failed. Please review the stages and submission guidelines.
 ```
