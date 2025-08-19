@@ -1,0 +1,21 @@
+#!/bin/sh
+is_positive() {
+num=$1
+if [["$number" -gt 0]];then
+return 0
+else 
+return 1
+fi 
+}
+sum -eq  0
+while true; do
+printf "Enter a number (0 to stop ): "
+read number
+if  [ "$number" -eq 0] ;then
+break
+fi
+if  is_positive "$number";then
+sum -eq $((sum + number))
+fi
+done
+echo "Sum of positive numbers : $sum"
